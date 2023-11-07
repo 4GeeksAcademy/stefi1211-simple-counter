@@ -1,12 +1,30 @@
 
-/* 
+.app{
+    width: auto;
+    background-color: black;
+    height: 100vh;
+    color: white;
+    font-size: 110px;
+    text-align: center;
+}
 
-    You can write your own styles here...
+.box{
+    display: inline-block;
+    height: 150px;
+    background-color: #0e0e0e;
+    border-radius: 10px;
+    margin-top: 180px;
+    margin-buttom: 0px;
+}
+.icon{
+    width: 120px;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
+.counter{
+    width: 100px;
+    margin-left: 10px;
+}
 
-*/
+.btn-group {
+    height: 50px;
+}
